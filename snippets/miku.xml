@@ -10,6 +10,10 @@
 	   revision="Vampire"
 	   fetch="https://gitlab.com/Miku-UI" />
 
+  <remote  name="Xero"
+	   revision="Vampire_v2"
+	   fetch="https://github.com/XeroMz69" />
+
   <!-- Art -->
   <project path="art" name="platform_art" remote="miku" />
 
@@ -51,7 +55,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="miku" revision="Udon" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="miku" revision="Udon" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="miku" revision="Udon" />
-  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" revision="Udon" />
+  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="Xero" revision="Udon" />
   <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" revision="Udon" />
 
   <!-- External -->
