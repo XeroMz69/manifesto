@@ -123,7 +123,7 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="miku" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="miku" />
-  <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="miku" revision="Vampire" />
+  <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="Xero" revision="Vampire" />
 
   <!-- KernelSU -->
   <project path="kernel/KernelSU" name="platform_kernel_KernelSU" remote="miku" />
